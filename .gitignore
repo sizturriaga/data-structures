@@ -3,3 +3,6 @@
 .settings/
 .DS_Store
 /bin
+/out
+data-structures.iml
+.idea
