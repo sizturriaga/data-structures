@@ -7,6 +7,7 @@ public class AvlTree<T extends Comparable<T>> implements Tree<T> {
     @Override
     public void insert(T data) {
         root = insert(root, data);
+        System.out.println("root "+root);
     }
 
     private Node<T> insert(Node<T> node, T data) {

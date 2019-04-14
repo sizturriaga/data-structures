@@ -4,7 +4,7 @@ public class App {
 
     public static void main(String[] args) {
 
-/*
+
         Tree avl = new AvlTree();
         avl.insert(10);
         avl.insert(20);
@@ -15,7 +15,7 @@ public class App {
 
         avl.traverse();
 
-        Tree avl2 = new AvlTree();
+/*        Tree avl2 = new AvlTree();
         avl2.insert(3);
         avl2.insert(2);
         avl2.insert(1);
@@ -37,7 +37,7 @@ public class App {
         avl4.insert(4);
 
         avl4.traverse();
- */
+
 
 
         Tree<Integer> avlDeletionInt = new AvlTree<>();
@@ -61,6 +61,6 @@ public class App {
         avlDeletionString.delete("Jose");
 
         avlDeletionString.traverse();
-
+*/
     }
 }
